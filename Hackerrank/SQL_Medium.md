@@ -1,4 +1,4 @@
-# Solutions to Hackerrank SQL Easy problems
+# Solutions to Hackerrank SQL medium problems
 These are the solutions to the problems found here https://www.hackerrank.com/domains/sql?badge_type=sql&filters%5Bdifficulty%5D%5B%5D=medium
 
 | N   | Link                                                                                                                     | Solution                                        |

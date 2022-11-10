@@ -6,4 +6,4 @@ I like doing coding problems and the best way to learn is to teach so here are s
 https://www.hackerrank.com/lightwastaken
 
 1. [Hackerrank - SQL Easy](Hackerrank/SQL_Easy.md)
-2. [Hackerrank - SQL Medium][Hackerrank/SQL_Medium.md)
+2. [Hackerrank - SQL Medium](Hackerrank/SQL_Medium.md)
