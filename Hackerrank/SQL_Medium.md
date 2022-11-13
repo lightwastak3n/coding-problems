@@ -6,7 +6,7 @@ These are the solutions to the problems found here https://www.hackerrank.com/do
 | 1   | [The PADS](https://www.hackerrank.com/challenges/the-pads?isFullScreen=true)                                             | [Solution](problems/sql_medium/the_pads.sql)          |
 | 2   | [Occupations](https://www.hackerrank.com/challenges/occupations?isFullScreen=true)                                       | [Solution](problems/sql_medium/occupations.sql)       | 
 | 3   | [Binary Tree Nodes](https://www.hackerrank.com/challenges/binary-search-tree-1?isFullScreen=true)                        | [Solution](problems/sql_medium/binary_tree_nodes.sql) |
-| 4   | [New Companies](https://www.hackerrank.com/challenges/the-company?isFullScreen=true)                                     |                                                       |
+| 4   | [New Companies](https://www.hackerrank.com/challenges/the-company?isFullScreen=true)                                     | [Solution](problems/sql_medium/new_companies.sql)     |
 | 5   | [Weather Observation Station 18](https://www.hackerrank.com/challenges/weather-observation-station-18?isFullScreen=true) |                                                       |
 | 6   | [Weather Observation Station 19](https://www.hackerrank.com/challenges/weather-observation-station-19?isFullScreen=true) |                                                       |
 | 7   | [Weather Observation Station 20](https://www.hackerrank.com/challenges/weather-observation-station-20?isFullScreen=true) |                                                       |
