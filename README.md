@@ -8,7 +8,7 @@ https://www.hackerrank.com/lightwastaken
 1. [Hackerrank - SQL Easy](Hackerrank/SQL_Easy.md)
 2. [Hackerrank - SQL Medium](Hackerrank/SQL_Medium.md)
 
-## LeetCode
+## <img height=30 src="https://assets.leetcode.com/static_assets/public/webpack_bundles/images/logo-dark.e99485d9b.svg">
 https://leetcode.com/lightwastaken/
 
 1. [LeetCode 75](Leetcode/Leetcode_75.md)
