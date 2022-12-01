@@ -1,5 +1,5 @@
 // Time: O(n) - where n is the length of string t
-// Space: O(1) - we are only storing 3
+// Space: O(1) - we are only storing 3 ints
 
 var isSubsequence = function(s, t) {
     let i = 0
