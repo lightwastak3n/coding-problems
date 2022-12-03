@@ -3,7 +3,7 @@ from string import ascii_lowercase, ascii_uppercase
 
 
 # Get the input data
-session_val = "redacted"
+session_val = "53616c7465645f5fa1c3e21dbaf06941047a2fd3ae3625f5dca81a21a981244a5a05a83f2c74b221fc4fce5ace4b21e3687daf57486f7500dad071c2b0ab3571"
 day3 = get_input(session_val, 2022, 3)
 day3 = day3.split('\n')
 day3.pop() # Get rid of the last empty line
@@ -45,13 +45,13 @@ get_priority = lambda item : ord(item) - 96 if item.islower() else ord(item) - 3
 for i in range(len(day3)):
     rucksack = day3[i]
     duplicate1 = set(rucksack[:len(rucksack)//2]) & set(rucksack[len(rucksack)//2:])
-    total1 += get_priority(str(duplicate1)[2])
+    total1 += get_priority(duplicate1.pop())
 
     # Collect groups of 3
     group.append(rucksack)
     if len(group) == 3:
         duplicate2 = set(group[0]) & set(group[1]) & set(group[2])
-        total2 += get_priority(str(duplicate2)[2])
+        total2 += get_priority(duplicate2.pop())
         group = []
     
 print(total1)

@@ -1,10 +1,6 @@
-# Solutions to Leetcode problems
-List of problems https://leetcode.com/problemset/all/
-
-Solutions in Python and JS (currently learning).
-
-## Leetcode 75
+# Solutions to Leetcode 75 problems
 https://leetcode.com/study-plan/leetcode-75/
+Solutions in Python and JS (currently learning).
 
 | N   | Link                                                                                                     | Solution                                 |
 | --- | -------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
