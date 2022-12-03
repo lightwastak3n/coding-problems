@@ -1,5 +1,6 @@
 from get_data import get_input
 
+# Get the input data
 session_val = "redacted"
 day2 = get_input(session_val, 2022, 2)
 day2 = day2.split('\n')
