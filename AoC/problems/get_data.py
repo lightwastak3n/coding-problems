@@ -24,9 +24,9 @@ def get_input(year, day):
 
     with open("config.json", "r") as config:
         session_val = json.load(config)["cookie"]
-
+    user_agent = {"User-Agent": "https://github.com/lightwastak3n/coding-problems by coding@l1ght.anonaddy.com"}
     try:
-        response = requests.get(url, cookies={"session": session_val})
+        response = requests.get(url, cookies={"session": session_val}, headers=user_agent)
         response.raise_for_status()
     except requests.exceptions.HTTPError as err:
         raise SystemExit(err)
