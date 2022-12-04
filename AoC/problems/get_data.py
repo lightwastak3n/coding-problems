@@ -1,6 +1,8 @@
 import requests
+import json
 
-def get_input(session_val, year, day):
+
+def get_input(year, day):
     '''
     Gets the input data for a given problem. Saves the data to a file for future reference.
     
@@ -19,6 +21,10 @@ def get_input(session_val, year, day):
         The input data for the problem
     '''
     url = f"https://adventofcode.com/{year}/day/{day}/input"
+
+    with open("config.json", "r") as config:
+        session_val = json.load(config)["cookie"]
+
     try:
         response = requests.get(url, cookies={"session": session_val})
         response.raise_for_status()

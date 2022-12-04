@@ -1,10 +1,15 @@
+from os import path
 from get_data import get_input
 from string import ascii_lowercase, ascii_uppercase
 
 
-# Get the input data
-session_val = "53616c7465645f5fa1c3e21dbaf06941047a2fd3ae3625f5dca81a21a981244a5a05a83f2c74b221fc4fce5ace4b21e3687daf57486f7500dad071c2b0ab3571"
-day3 = get_input(session_val, 2022, 3)
+# Check if input file exists and if not download it and use it
+if path.exists("problems/day3.txt"):
+    with open("problems/day3.txt", "r") as f:
+        day3 = f.read()
+else:
+    day3 = get_input(2022, 4)
+
 day3 = day3.split('\n')
 day3.pop() # Get rid of the last empty line
 

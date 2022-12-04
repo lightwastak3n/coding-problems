@@ -1,10 +1,17 @@
+from os import path
 from get_data import get_input
 
-# Get the input data
-session_val = "redacted"
-day2 = get_input(session_val, 2022, 2)
+
+# Check if input file exists and if not download it and use it
+if path.exists("problems/day2.txt"):
+    with open("problems/day2.txt", "r") as f:
+        day2 = f.read()
+else:
+    day2 = get_input(2022, 4)
+
 day2 = day2.split('\n')
 day2.pop() # Get rid of the last empty line
+
 
 # Solution 1
 mapping = {
