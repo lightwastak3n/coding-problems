@@ -3,8 +3,8 @@ from get_data import get_input
 
 
 # Check if input file exists and if not download it and use it
-if path.exists("problems/day4.txt"):
-    with open("problems/day4.txt", "r") as f:
+if path.exists("day4.txt"):
+    with open("day4.txt", "r") as f:
         day4 = f.read()
 else:
     day4 = get_input(2022, 4)

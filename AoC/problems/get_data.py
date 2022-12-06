@@ -31,6 +31,6 @@ def get_input(year, day):
     except requests.exceptions.HTTPError as err:
         raise SystemExit(err)
     else:
-        with open(f"problems/day{day}.txt", "w") as f:
+        with open(f"day{day}.txt", "w") as f:
             f.write(response.text)
         return response.text

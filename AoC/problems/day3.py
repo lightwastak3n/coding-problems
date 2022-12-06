@@ -4,8 +4,8 @@ from string import ascii_lowercase, ascii_uppercase
 
 
 # Check if input file exists and if not download it and use it
-if path.exists("problems/day3.txt"):
-    with open("problems/day3.txt", "r") as f:
+if path.exists("day3.txt"):
+    with open("day3.txt", "r") as f:
         day3 = f.read()
 else:
     day3 = get_input(2022, 4)

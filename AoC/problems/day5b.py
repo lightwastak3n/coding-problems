@@ -3,8 +3,8 @@ from get_data import get_input
 
 
 # Get the input data as a list
-if path.exists("problems/day5.txt"):
-    with open("problems/day5.txt", "r") as f:
+if path.exists("day5.txt"):
+    with open("day5.txt", "r") as f:
         data = f.read()
 else:
     data = get_input(2022, 5)
