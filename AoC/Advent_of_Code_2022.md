@@ -19,4 +19,6 @@ I try to write the first solution as fast as I can, so whatever first comes to m
 | 4   | [Day 4 - Advent of Code 2022](https://adventofcode.com/2022/day/4) | [Python](problems/day4.py) |                             |
 | 5   | [Day 5 - Advent of Code 2022](https://adventofcode.com/2022/day/5) | [Python](problems/day5.py) | [Python](problems/day5b.py) | 
 | 6   | [Day 6 - Advent of Code 2022](https://adventofcode.com/2022/day/6) | [Python](problems/day6.py) |                             | 
+| 7   | [Day 7 - Advent of Code 2022](https://adventofcode.com/2022/day/7) | [Python](problems/day7.py) |                             | 
+| 8   | [Day 8 - Advent of Code 2022](https://adventofcode.com/2022/day/8) | [Python](problems/day8.py) |                             | 
 
