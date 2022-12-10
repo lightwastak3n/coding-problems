@@ -13,19 +13,9 @@ else:
 s = s.split("\n")
 s.pop()
 
-t_case = '''R 5
-U 8
-L 8
-D 3
-R 17
-D 10
-L 25
-U 20'''
-
-t_sol = 13
-
+# Get a list of moves like this "RRRDDDULLRRRRR..."
 moves = ""
-for line in t_case.split("\n"):
+for line in s:
     direction, amount = line.split(" ")
     moves += direction * int(amount)
 
@@ -39,11 +29,11 @@ def move(dir, loc):
     return loc
 
 
-def distance(hloc, tloc):
-    return math.sqrt((hloc[0]-tloc[0])**2 + (hloc[1]-tloc[1])**2)
+def distance(head, tail):
+    return math.sqrt((head[0] - tail[0]) ** 2 + (head[1] - tail[1]) ** 2)
 
-
-head, tail =  [0,0], [0,0]
+# Tail will just follow the head if the distance is more than 1 "unit"
+head, tail =  [0, 0], [0, 0]
 visited = [[0, 0]]
 for d in moves:
     phead = [head[0], head[1]]
@@ -54,14 +44,29 @@ for d in moves:
             visited.append([tail[0], tail[1]])
 print(len(visited))
 
-current_pos = [[0, 0] for i in range(10)]
-visited = [[0,0]]
+# :( rope doesn't move like I expected it. Need a different movement algorithm.
+def get_moves(head, tail):
+    movement = ""
+    if head[0] > tail[0]:
+        movement += "R"
+    elif head[0] < tail[0]:
+        movement += "L"
+    if head[1] > tail[1]:
+        movement += "U"
+    elif head[1] < tail[1]:
+        movement += "D"
+    return movement
+
+
+rope = [[0, 0] for _ in range(10)]
+visited2 = [[0, 0]]
 for d in moves:
-    previous_position = [[node[0], node[1]] for node in current_pos]
-    current_pos[9] = move(d, current_pos[9])
-    for i in range(8,-1,-1):
-        if distance(current_pos[i], current_pos[i+1]) >= 2:
-            current_pos[i] = previous_position[i+1]
-    if current_pos[0] not in visited:
-        visited.append(current_pos[0])
-print(len(visited))
+    rope[9] = move(d, rope[9])
+    for i in range(8, -1, -1):
+        if distance(rope[i], rope[i+1]) >= 2:
+            movement = get_moves(rope[i+1], rope[i])
+            for p in movement:
+                rope[i] = move(p, rope[i])
+    if rope[0] not in visited2:
+        visited2.append([rope[0][0], rope[0][1]])
+print(len(visited2))

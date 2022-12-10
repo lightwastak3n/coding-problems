@@ -21,4 +21,9 @@ I try to write the first solution as fast as I can, so whatever first comes to m
 | 6   | [Day 6 - Advent of Code 2022](https://adventofcode.com/2022/day/6) | [Python](problems/day6.py) |                             | 
 | 7   | [Day 7 - Advent of Code 2022](https://adventofcode.com/2022/day/7) | [Python](problems/day7.py) |                             | 
 | 8   | [Day 8 - Advent of Code 2022](https://adventofcode.com/2022/day/8) | [Python](problems/day8.py) |                             | 
+| 9   | [Day 9 - Advent of Code 2022](https://adventofcode.com/2022/day/9) | [Python](problems/day9.py) |                             | 
 
+
+## Logs
+### Day 9
+This problem, sheesh. For the first part I just wrote a simple algorithm that has the tail moving to heads previous place once head gets too far. Then, for the second part, the moving pattern in the example was completely different from what I imagined (I imagined a classical snake game).
