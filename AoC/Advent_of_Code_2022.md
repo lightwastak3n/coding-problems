@@ -37,6 +37,8 @@ This really screwed up my visualization in the second part and I spent way too m
 
 ### Day 11
 Me: Oh lets just make a monkey class
+
 Also me: Nah let's turn everything into arrays
+
 Not that hard of a problem but managed to make quite the spaghetti code. Math background probably helped for the part 2.
 
