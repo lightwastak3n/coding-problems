@@ -1,6 +1,5 @@
 from os import path
 from get_data import get_input
-import math
 
 
 # Check if input file exists and if not download it and use it

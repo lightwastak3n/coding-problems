@@ -23,6 +23,7 @@ I try to write the first solution as fast as I can, so whatever first comes to m
 | 8   | [Day 8 - Advent of Code 2022](https://adventofcode.com/2022/day/8)   | [Python](problems/day8.py)  |                             | 
 | 9   | [Day 9 - Advent of Code 2022](https://adventofcode.com/2022/day/9)   | [Python](problems/day9.py)  |                             |
 | 10  | [Day 10 - Advent of Code 2022](https://adventofcode.com/2022/day/10) | [Python](problems/day10.py) |                             |
+| 11  | [Day 11 - Advent of Code 2022](https://adventofcode.com/2022/day/11) | [Python](problems/day11.py) |                             |
 
 
 ## Logs
@@ -30,6 +31,12 @@ Writing this as notes for myself.
 ### Day 9
 This problem, sheesh. For the first part I just wrote a simple algorithm that has the tail moving to heads previous place once head gets too far. Then, for the second part, the moving pattern in the example was completely different from what I imagined (something similar to a classical snake game).
 
-## Day 10
+### Day 10
 Started counting cycles from 1 instead of 0 for the first part since then I can just use numbers provided in the problem to get the X. 
 This really screwed up my visualization in the second part and I spent way too much time debugging it.
+
+### Day 11
+Me: Oh lets just make a monkey class
+Also me: Nah let's turn everything into arrays
+Not that hard of a problem but managed to make quite the spaghetti code. Math background probably helped for the part 2.
+
