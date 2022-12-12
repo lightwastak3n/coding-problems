@@ -24,6 +24,7 @@ I try to write the first solution as fast as I can, so whatever first comes to m
 | 9   | [Day 9 - Advent of Code 2022](https://adventofcode.com/2022/day/9)   | [Python](problems/day9.py)  |                             |
 | 10  | [Day 10 - Advent of Code 2022](https://adventofcode.com/2022/day/10) | [Python](problems/day10.py) |                             |
 | 11  | [Day 11 - Advent of Code 2022](https://adventofcode.com/2022/day/11) | [Python](problems/day11.py) |                             |
+| 12  | [Day 12 - Advent of Code 2022](https://adventofcode.com/2022/day/12) | [Python](problems/day12.py) |                             |
 
 
 ## Logs
@@ -41,4 +42,7 @@ Me: Oh lets just make a monkey class
 Also me: Nah let's turn everything into arrays
 
 Not that hard of a problem but managed to make quite the spaghetti code. Math background probably helped for the part 2.
+
+### Day 12
+Messy solution, will add a cleaner one later. The part 2 looked the same as part 1 expect we don't know the exact start. So I just inverted everything, so that we have one start and multiple ends and checked if we reached the end.
 
