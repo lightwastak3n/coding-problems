@@ -11,23 +11,24 @@ This will also save the input data as a txt file for future reference. Python fi
 
 I try to write the first solution as fast as I can, so whatever first comes to mind. After I get the stars I might try to write shorter code for the second solution. 
 
-| Day | Problem link                                                         | Solution                    | Cleaner                     |
-| --- | -------------------------------------------------------------------- | --------------------------- | --------------------------- |
-| 1   | [Day 1 - Advent of Code 2022](https://adventofcode.com/2022/day/1)   | [Python](problems/day1.py)  |                             |
-| 2   | [Day 2 - Advent of Code 2022](https://adventofcode.com/2022/day/2)   | [Python](problems/day2.py)  |                             |
-| 3   | [Day 3 - Advent of Code 2022](https://adventofcode.com/2022/day/3)   | [Python](problems/day3.py)  |                             |
-| 4   | [Day 4 - Advent of Code 2022](https://adventofcode.com/2022/day/4)   | [Python](problems/day4.py)  |                             |
-| 5   | [Day 5 - Advent of Code 2022](https://adventofcode.com/2022/day/5)   | [Python](problems/day5.py)  | [Python](problems/day5b.py) |
-| 6   | [Day 6 - Advent of Code 2022](https://adventofcode.com/2022/day/6)   | [Python](problems/day6.py)  |                             |
-| 7   | [Day 7 - Advent of Code 2022](https://adventofcode.com/2022/day/7)   | [Python](problems/day7.py)  |                             |
-| 8   | [Day 8 - Advent of Code 2022](https://adventofcode.com/2022/day/8)   | [Python](problems/day8.py)  |                             | 
-| 9   | [Day 9 - Advent of Code 2022](https://adventofcode.com/2022/day/9)   | [Python](problems/day9.py)  |                             |
-| 10  | [Day 10 - Advent of Code 2022](https://adventofcode.com/2022/day/10) | [Python](problems/day10.py) |                             |
-| 11  | [Day 11 - Advent of Code 2022](https://adventofcode.com/2022/day/11) | [Python](problems/day11.py) |                             |
-| 12  | [Day 12 - Advent of Code 2022](https://adventofcode.com/2022/day/12) | [Python](problems/day12.py) |                             |
-| 13  | [Day 13 - Advent of Code 2022](https://adventofcode.com/2022/day/13) |                             |                             |
-| 14  | [Day 14 - Advent of Code 2022](https://adventofcode.com/2022/day/14) | [Python](problems/day14.py) |                             |
-| 15  | [Day 15 - Advent of Code 2022](https://adventofcode.com/2022/day/15) |                             |                             |
+| Day | Problem link                                                         | Solution                         | Cleaner                          |
+| --- | -------------------------------------------------------------------- | -------------------------------- | -------------------------------- |
+| 1   | [Day 1 - Advent of Code 2022](https://adventofcode.com/2022/day/1)   | [Python](2022_problems/day1.py)  |                                  |
+| 2   | [Day 2 - Advent of Code 2022](https://adventofcode.com/2022/day/2)   | [Python](2022_problems/day2.py)  |                                  |
+| 3   | [Day 3 - Advent of Code 2022](https://adventofcode.com/2022/day/3)   | [Python](2022_problems/day3.py)  |                                  |
+| 4   | [Day 4 - Advent of Code 2022](https://adventofcode.com/2022/day/4)   | [Python](2022_problems/day4.py)  |                                  |
+| 5   | [Day 5 - Advent of Code 2022](https://adventofcode.com/2022/day/5)   | [Python](2022_problems/day5.py)  | [Python](2022_problems/day5b.py) |
+| 6   | [Day 6 - Advent of Code 2022](https://adventofcode.com/2022/day/6)   | [Python](2022_problems/day6.py)  |                                  |
+| 7   | [Day 7 - Advent of Code 2022](https://adventofcode.com/2022/day/7)   | [Python](2022_problems/day7.py)  |                                  |
+| 8   | [Day 8 - Advent of Code 2022](https://adventofcode.com/2022/day/8)   | [Python](2022_problems/day8.py)  |                                  |
+| 9   | [Day 9 - Advent of Code 2022](https://adventofcode.com/2022/day/9)   | [Python](2022_problems/day9.py)  |                                  |
+| 10  | [Day 10 - Advent of Code 2022](https://adventofcode.com/2022/day/10) | [Python](2022_problems/day10.py) |                                  |
+| 11  | [Day 11 - Advent of Code 2022](https://adventofcode.com/2022/day/11) | [Python](2022_problems/day11.py) |                                  |
+| 12  | [Day 12 - Advent of Code 2022](https://adventofcode.com/2022/day/12) | [Python](2022_problems/day12.py) |                                  |
+| 13  | [Day 13 - Advent of Code 2022](https://adventofcode.com/2022/day/13) |                                  |                                  |
+| 14  | [Day 14 - Advent of Code 2022](https://adventofcode.com/2022/day/14) | [Python](2022_problems/day14.py) |                                  |
+| 15  | [Day 15 - Advent of Code 2022](https://adventofcode.com/2022/day/15) |                                  |                                  |
+| 16  | [Day 16 - Advent of Code 2022](https://adventofcode.com/2022/day/16) |                                  |                                  |
 
 
 ## Logs
