@@ -9,3 +9,4 @@ Solutions in Python and JS (currently learning).
 | 3   | [Isomorphic Strings - LeetCode](https://leetcode.com/problems/isomorphic-strings/description/)           | [JS](problems/205_isomorphic_strings.js)      |
 | 4   | [Is Subsequence - LeetCode](https://leetcode.com/problems/is-subsequence/description/)                   | [JS](problems/392_is_subsequence.js)          |
 | 5   | [Merge Two Sorted Lists - LeetCode](https://leetcode.com/problems/merge-two-sorted-lists/)               | [Python](problems/21_merge_2_sorted_lists.py) |
+| 6   | [Reverse Linked List - LeetCode](https://leetcode.com/problems/reverse-linked-list/)                     | [JS](problems/206_reverse_linked_list.js)     |
