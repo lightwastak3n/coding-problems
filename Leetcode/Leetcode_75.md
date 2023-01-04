@@ -14,3 +14,4 @@ Solutions in Python and JS (currently learning).
 | 8   | [Linked List Cycle II - LeetCode](https://leetcode.com/problems/linked-list-cycle-ii/)                       | [JS](problems/142_linked_list_cycle2.js)      |
 | 9   | [Best Time to Buy and Sell Stock - LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [JS](problems/121_best_time_stocks.js)        |
 | 10  | [Longest Palindrome - LeetCode](https://leetcode.com/problems/longest-palindrome/)                           | [JS](problems/409_longest_palindrome.js)      | 
+| 11  | [N-ary Tree Preorder Traversal - LeetCode](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)     | [JS](problems/589_nary_tree_preorder.js)      | 
