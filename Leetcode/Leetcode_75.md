@@ -16,3 +16,4 @@ Solutions in Python and JS (currently learning).
 | 10  | [Longest Palindrome - LeetCode](https://leetcode.com/problems/longest-palindrome/)                               | [JS](problems/409_longest_palindrome.js)          |
 | 11  | [N-ary Tree Preorder Traversal - LeetCode](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)         | [JS](problems/589_nary_tree_preorder.js)          |
 | 12  | [Binary Tree Level Order Traversal - LeetCode](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Python](problems/102_binary_tree_level_order.py) | 
+| 13  | [[Binary Search - LeetCode](https://leetcode.com/problems/binary-search/)                                        | [JS](problems/704_binary_search.js)               |
