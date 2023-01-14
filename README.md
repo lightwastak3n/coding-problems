@@ -10,8 +10,12 @@ https://www.hackerrank.com/lightwastaken
  
 ## <img height=30 src="media/LeetCode_logo.png"> LeetCode
 https://leetcode.com/lightwastaken/
+I started with Leetcode 75 but decided to keep it a bit more organized, so there are individual lists for easy, medium, hard.
 
 1. [LeetCode 75](Leetcode/Leetcode_75.md)
+2. [Leetcode easy](Leetcode/Leetcode_easy.md)
+3. [Leetcode medium](Leetcode/Leetcode_medium.md)
+4. [Leetcode hard](Leetcode/Leetcode_hard.md)
 
 ## <img height=30 src="media/aoc_logo.png"> Advent of Code
 https://adventofcode.com/
