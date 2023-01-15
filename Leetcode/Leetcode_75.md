@@ -18,3 +18,4 @@ Solutions in Python and JS (currently learning).
 | 12  | [Binary Tree Level Order Traversal - LeetCode](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Python](leetcode_medium/102_binary_tree_level_order.py) | 
 | 13  | [Binary Search - LeetCode](https://leetcode.com/problems/binary-search/)                                         | [JS](leetcode_easy/704_binary_search.js)                 |
 | 14  | [First Bad Version - LeetCode](https://leetcode.com/problems/first-bad-version/)                                 | [JS](leetcode_easy/278_first_bad_version.js)             |
+| 15  | [Validate Binary Search Tree - LeetCode](https://leetcode.com/problems/validate-binary-search-tree/)             | [JS](leetcode_medium/98_valid_bst.js)                    |
