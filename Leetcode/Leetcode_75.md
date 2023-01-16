@@ -32,8 +32,8 @@ Solutions in Python and JS (currently learning).
 | 26  | [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)                                                                             |                                                          |
 | 27  | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)                                                         |                                                          |
 | 28  | [Decode String](https://leetcode.com/problems/decode-string/)                                                                               |                                                          |
-| 29  | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/?envType=study-plan&id=level-1)                                         |                                                          |
-| 30  | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/?envType=study-plan&id=level-1)                                   |                                                          |
+| 29  | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)                                                                       |                                                          |
+| 30  | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)                                                                 |                                                          |
 | 31  | [Happy Number](https://leetcode.com/problems/happy-number/)                                                                                 |                                                          |
 | 32  | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)                                                                               |                                                          |
 | 33  | [Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)                                                         |                                                          |
