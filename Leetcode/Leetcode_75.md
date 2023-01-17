@@ -1,7 +1,7 @@
 # Solutions to Leetcode 75 problems
 https://leetcode.com/study-plan/leetcode-75/
 Solutions in Python and JS (currently learning).
-
+                                   |        |
 | N   | Link                                                                                                                                        | Solution                                                 |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
 | 1   | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)                                                           | [Python](leetcode_easy/1480_running_sum.md)              |
@@ -45,7 +45,7 @@ Solutions in Python and JS (currently learning).
 | 39  | [Sort List](https://leetcode.com/problems/sort-list/)                                                                                       |                                                          |
 | 40  | [Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/) |                                                          |
 | 41  | [Task Scheduler](https://leetcode.com/problems/task-scheduler/)                                                                             |                                                          |
-| 42  | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)                                                                     |                                                          |
+| 42  | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)                                                                     | [JS](leetcode_easy/226_invert_binary_tree.js)            |
 | 43  | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)                                                                 |                                                          |
 | 44  | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)                                                           |                                                          |
 | 45  | [Path Sum III](https://leetcode.com/problems/path-sum-iii/)                                                                                 |                                                          |
