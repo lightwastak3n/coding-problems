@@ -19,6 +19,6 @@ Solutions in Python and JS (currently learning).
 | 589  | [N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)     | stack, tree, dfs                        | [JS](leetcode_easy/589_nary_tree_preorder.js)       |
 | 704  | [Binary Search](https://leetcode.com/problems/binary-search/)                                     | array, binary search                    | [JS](leetcode_easy/704_binary_search.js)            |
 | 724  | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/description/)                   | array, prefix sum                       | [Python](leetcode_easy/724_pivot_index.py)          |
-| 733  | [Flood Fill - LeetCode](https://leetcode.com/problems/flood-fill/description/)                    | array, dfs, bfs                         | [[JS](leetcode_easy/733_flood_fill.js)              |
+| 733  | [Flood Fill - LeetCode](https://leetcode.com/problems/flood-fill/description/)                    | array, dfs, bfs                         | [JS](leetcode_easy/733_flood_fill.js)               |
 | 876  | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)             | 2 pointers, linked list                 | [JS](leetcode_easy/876_middle_of_linked_list.js)    |
 | 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)                 | array, prefix sum                       | [Python](proleetcode_easyblems/1480_running_sum.md) |
