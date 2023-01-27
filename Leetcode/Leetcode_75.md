@@ -47,7 +47,7 @@ Solutions in Python and JS (currently learning).
 | 40  | [Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/) |                                                            |
 | 41  | [Task Scheduler](https://leetcode.com/problems/task-scheduler/)                                                                             |                                                            |
 | 42  | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)                                                                     | [JS](leetcode_easy/226_invert_binary_tree.js)              |
-| 43  | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)                                                                 |                                                            |
+| 43  | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)                                                                 | [JS](leetcode_easy/110_balanced_binary_tree.js)            |
 | 44  | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)                                                           |                                                            |
 | 45  | [Path Sum III](https://leetcode.com/problems/path-sum-iii/)                                                                                 |                                                            |
 | 46  | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)                                                                     |                                                            |
