@@ -1,39 +1,31 @@
-var MyQueue = function() {
-	this.stack1 = []
-	this.stack2 = []
-};
+class MyQueue {
+    constructor() {
+        this.stack1 = [];
+        this.stack2 = [];
+    }
 
-// Push to the back of the queue
-MyQueue.prototype.push = function(x) {
-	this.stack1.push(x)
-};
+    push(x) {
+        this.stack1.push(x);
+    }
 
-// Pop the element from the front of the queue and return it
-MyQueue.prototype.pop = function() {
-	while(this.stack1.length !== 0){
-		this.stack2.push(this.stack1.pop())
-	}
-	var pop = this.stack2.pop()
-	while(this.stack2.length !== 0){
-		this.stack1.push(this.stack2.pop())
-	}
-	return pop
-};
+    peek() {
+        if (!this.stack2.length) {
+            while (this.stack1.length != 0) {
+                this.stack2.push(this.stack1.pop());
+            }
+        }
+        return this.stack2[this.stack2.length - 1];
+    }
 
-// Return element from the front of the queue
-MyQueue.prototype.peek = function() {
-	while(this.stack1.length !== 0){
-		this.stack2.push(this.stack1.pop())
-	}
-	var pop = this.stack2.pop()
-	this.stack2.push(pop)
-	while(this.stack2.length !== 0){
-		this.stack1.push(this.stack2.pop())
-	}
-	return pop
-};
+    pop() {
+        this.peek();
+        return this.stack2.pop();
+    }
 
-// Returns whether the queue is empty.
-MyQueue.prototype.empty = function() {
-	return this.stack1.length === 0 ? true:false
-};
+    empty() {
+        return this.stack1.length == 0 && this.stack2.length == 0;
+    }
+}
+
+// Time complexity: O(1) amortized - each of n elements moved only once in peek()
+// Space complexity: O(n)
