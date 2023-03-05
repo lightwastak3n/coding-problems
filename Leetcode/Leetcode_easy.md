@@ -7,6 +7,7 @@ Solutions in Python and JS (currently learning).
 | 1    | [Two Sum - LeetCode](https://leetcode.com/problems/two-sum/description/)                          | array, hash map                         | [JS](leetcode_easy/1_two_sum.js)                        |
 | 20   | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                             | string, stack                           | [JS](leetcode_easy/20_valid_parentheses.js)             |
 | 21   | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)                   | linked list, recursion                  | [Python](leetcode_easy/21_merge_2_sorted_lists.py)      |
+| 70   | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)                                 | dynamic programming, memoization        | [JS](leetcode_easy/70_climbing_stairs.js)               |
 | 110  | [Balanced Binary Tree - LeetCode](https://leetcode.com/problems/balanced-binary-tree/)            | binary tree, dfs                        | [Python](leetcode_easy/110_balanced_binary_tree.js)     |
 | 121  | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | array, dynamic programming              | [JS](leetcode_easy/121_best_time_stocks.js)             |
 | 125  | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)                               | 2 pointers, string                      | [JS](leetcode_easy/125_valid_palindrome.js)             |

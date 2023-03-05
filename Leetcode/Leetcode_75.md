@@ -24,7 +24,7 @@ Solutions in Python and JS (currently learning).
 | 17  | [Flood Fill](https://leetcode.com/problems/flood-fill/)                                                                                     | [JS](leetcode_easy/733_flood_fill.js)                      |
 | 18  | [Number of Islands](https://leetcode.com/problems/number-of-islands/)                                                                       |                                                            |
 | 19  | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)                                                                         |                                                            |
-| 20  | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)                                                                           |                                                            |
+| 20  | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)                                                                           | [JS](leetcode_easy/70_climbing_stairs.js)                  |
 | 21  | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)                                                         |                                                            |
 | 22  | [Unique Paths](https://leetcode.com/problems/unique-paths/)                                                                                 |                                                            |
 | 23  | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)                                               |                                                            |
