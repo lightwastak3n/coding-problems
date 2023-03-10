@@ -16,6 +16,7 @@ Solutions in Python and JS (currently learning).
 | 169  | [Majority Element](https://leetcode.com/problems/majority-element/)                               | hash table, array                       | [JS](leetcode_easy/169_majority_element.js)             |
 | 205  | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/)               | hash table, string                      | [JS](leetcode_easy/205_isomorphic_strings.js)           |
 | 206  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)                         | linked list, recursion                  | [JS](leetcode_easy/206_reverse_linked_list.js)          |
+| 217  | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)                           | hash table                              | [JS](leetcode_easy/217_contains_duplicate.js)           |
 | 226  | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)                           | tree, dfs, bfs, binary tree             | [JS](leetcode_easy/226_invert_binary_tree.js)           |
 | 232  | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)       | stack, design, queue                    | [JS](leetcode_easy/232_implement_queue_using_stacks.js) |
 | 242  | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                                     | hash map, string                        | [JS](leetcode_easy/242_valid_anagram.js)                |
