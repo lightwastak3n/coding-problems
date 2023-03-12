@@ -24,6 +24,7 @@ Solutions in Python and JS (currently learning).
 | 383  | [Ransom Note](https://leetcode.com/problems/ransom-note/)                                         | hash table, string                      | [JS](leetcode_easy/383_ransom_note.js)                  |
 | 392  | [Is Subsequence](https://leetcode.com/problems/is-subsequence/)                                   | 2 pointers, string, dynamic programming | [JS](leetcode_easy/392_is_subsequence.js)               |
 | 409  | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)                           | hash table, string, greedy              | [JS](leetcode_easy/409_longest_palindrome.js)           |
+| 543  | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)                 | dfs, binary tree                        | [JS](leetcode_easy/543_diameter_binary_tree.js)         |
 | 589  | [N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)     | stack, tree, dfs                        | [JS](leetcode_easy/589_nary_tree_preorder.js)           |
 | 704  | [Binary Search](https://leetcode.com/problems/binary-search/)                                     | array, binary search                    | [JS](leetcode_easy/704_binary_search.js)                |
 | 724  | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)                               | array, prefix sum                       | [Python](leetcode_easy/724_pivot_index.py)              |
