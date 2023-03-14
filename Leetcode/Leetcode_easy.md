@@ -9,7 +9,8 @@ Solutions in Python and JS (currently learning).
 | 21   | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)                   | linked list, recursion                  | [Python](leetcode_easy/21_merge_2_sorted_lists.py)      |
 | 67   | [Add Binary](https://leetcode.com/problems/add-binary/)                                           | string, bit manipulation                | [[JS](leetcode_easy/67_add_binary.js)                   |
 | 70   | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)                                 | dynamic programming, memoization        | [JS](leetcode_easy/70_climbing_stairs.js)               |
-| 110  | [Balanced Binary Tree - LeetCode](https://leetcode.com/problems/balanced-binary-tree/)            | binary tree, dfs                        | [Python](leetcode_easy/110_balanced_binary_tree.js)     |
+| 104  | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)       | binary tree, dfs,                       | [JS](leetcode_easy/104_maximum_depth_binary_tree.js)    |
+| 110  | [Balanced Binary Tree ](https://leetcode.com/problems/balanced-binary-tree/)                      | binary tree, dfs                        | [Python](leetcode_easy/110_balanced_binary_tree.js)     |
 | 121  | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | array, dynamic programming              | [JS](leetcode_easy/121_best_time_stocks.js)             |
 | 125  | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)                               | 2 pointers, string                      | [JS](leetcode_easy/125_valid_palindrome.js)             |
 | 141  | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)                             | 2 pointers, linked list                 | [JS](leetcode_easy/141_linked_list_cycle.js)            |
