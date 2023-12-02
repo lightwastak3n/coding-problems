@@ -14,4 +14,10 @@ I try to write the first solution as fast as I can, so whatever first comes to m
 | Day | Problem link                                                         | Solution                         | Cleaner                          |
 | --- | -------------------------------------------------------------------- | -------------------------------- | -------------------------------- |
 | 1   | [Day 1 - Advent of Code 2023](https://adventofcode.com/2023/day/1)   | [Python](2023_problems/day1.py)  |                                  |
-| 2   | [Day 2 - Advent of Code 2023](https://adventofcode.com/2023/day/2)   | [Python](2023_problems/day2.py)  |                                  |
+| 2   | [Day 2 - Advent of Code 2023](https://adventofcode.com/2023/day/2)   | [Python](2023_problems/day2.py)  | [Python](2023_problems/day2_b.py)|
+
+
+## Logs
+### Day 2
+We are looking for the largest number in both parts not sure why I stored all of them in the first part.
+Made a cleaner solution that doesn't import anything and is about 3x faster than original.
