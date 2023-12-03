@@ -16,7 +16,7 @@ conditions = {
 }
 
 
-def time_function(func, runs=100):
+def time_function(func, runs=500):
     def wrapper(text):
         t1 = time.time()
         for _ in range(runs):
@@ -69,10 +69,9 @@ def nore_solution(text):
         total_p2 += found["red"][0] * found["green"][0] * found["blue"][0]
     return total_p1, total_p2
 
+
 with open("AoC/2023_problems/day2.txt", "r") as f:
     test = f.read()
 
-
 print(original_solution(test))
-print("==============")
 print(nore_solution(test))
