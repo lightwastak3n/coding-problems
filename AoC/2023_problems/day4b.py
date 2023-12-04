@@ -7,17 +7,15 @@ Card 6: 31 18 13 56 72 | 74 77 10 23 35 67 36 11"""
 
 
 def solve(text):
+    lines = text.split("\n")
     p1 = 0
-    winnings = []
-    for line in text.split("\n"):
+    p2 = [1] * len(lines)
+    for i, line in enumerate(lines):
         data = line.split("|")
         winnings_nums = set(data[0].split(":")[1].split())
         draw = set(data[1].split())
         p1 += 2 ** (len(winnings_nums & draw) - 1) // 1
-        winnings.append(len(winnings_nums & draw))
-    p2 = [1] * len(winnings)
-    for i in range(len(winnings)):
-        for j in range(i+1, i+1+winnings[i]):
+        for j in range(i+1, i+1+len(winnings_nums & draw)):
             p2[j] += p2[i]
     return int(p1), sum(p2)
 
