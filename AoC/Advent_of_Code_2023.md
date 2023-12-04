@@ -16,12 +16,10 @@ I try to write the first solution as fast as I can, so whatever first comes to m
 | 1   | [Day 1 - Advent of Code 2023](https://adventofcode.com/2023/day/1)   | [Python](2023_problems/day1.py)  |                                  |
 | 2   | [Day 2 - Advent of Code 2023](https://adventofcode.com/2023/day/2)   | [Python](2023_problems/day2.py)  | [Python](2023_problems/day2_b.py)|
 | 3   | [Day 3 - Advent of Code 2023](https://adventofcode.com/2023/day/3)   | [Python](2023_problems/day3.py)  |                                  |
+| 4   | [Day 4 - Advent of Code 2023](https://adventofcode.com/2023/day/4)   | [Python](2023_problems/day4.py)  |                                  |
 
 
 ## Logs
 ### Day 2
 We are looking for the largest number in both parts not sure why I stored all of them in the first part.
 Made a cleaner solution that doesn't import anything and is about 3x faster than original.
-
-### Day 3
-Looked worst than it is when reading it. Forgot to terminate numbers at the end of the line. Would have probably been easier to pad the entire thing with ".".
