@@ -19,6 +19,7 @@ I try to write the first solution as fast as I can, so whatever first comes to m
 | 4   | [Day 4 - Advent of Code 2023](https://adventofcode.com/2023/day/4)   | [Python](2023_problems/day4.py)  | [Python](2023_problems/day4b.py) [Javascript](2023_problems/day4.js) |
 | 5   | [Day 5 - Advent of Code 2023](https://adventofcode.com/2023/day/5)   | [Python](2023_problems/day5.py)  |                                  |
 | 6   | [Day 6 - Advent of Code 2023](https://adventofcode.com/2023/day/6)   | [Python](2023_problems/day6.py)  | [Python](2023_problems/day6b.py) |
+| 7   | [Day 7 - Advent of Code 2023](https://adventofcode.com/2023/day/7)   | [Python](2023_problems/day7.py)  |                                  |
 
 
 ## Logs
@@ -39,3 +40,6 @@ It's also a bit weird with ranges order being one way in the text and the other 
 
 ### Day 6
 Easiest day so far. First solution is already clean. Second solution just does both parts at once and I tried to make it more compact.
+
+### Day 7
+Hard coded all the card values basically -.-.
