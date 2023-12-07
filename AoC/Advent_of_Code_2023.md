@@ -17,6 +17,8 @@ I try to write the first solution as fast as I can, so whatever first comes to m
 | 2   | [Day 2 - Advent of Code 2023](https://adventofcode.com/2023/day/2)   | [Python](2023_problems/day2.py)  | [Python](2023_problems/day2_b.py)|
 | 3   | [Day 3 - Advent of Code 2023](https://adventofcode.com/2023/day/3)   | [Python](2023_problems/day3.py)  |                                  |
 | 4   | [Day 4 - Advent of Code 2023](https://adventofcode.com/2023/day/4)   | [Python](2023_problems/day4.py)  | [Python](2023_problems/day4b.py) [Javascript](2023_problems/day4.js) |
+| 5   | [Day 5 - Advent of Code 2023](https://adventofcode.com/2023/day/5)   | [Python](2023_problems/day5.py)  |                                  |
+| 6   | [Day 6 - Advent of Code 2023](https://adventofcode.com/2023/day/6)   | [Python](2023_problems/day6.py)  | [Python](2023_problems/day6b.py) |
 
 
 ## Logs
@@ -29,4 +31,11 @@ Looked worst than it is when reading it. Forgot to terminate numbers at the end 
 Would have probably been easier to pad the entire thing with ".".
 
 ### Day 4
-Did extra loop over everything in the first solution. Added JS solution as a practice. Same as Python basically.S
+Did extra loop over everything in the first solution. Added JS solution as a practice. Same as Python basically.
+
+### Day 5
+So much harder than the previous day. Took me hours to solve. It's messy but I'm not sure I can make it much shorter.
+It's also a bit weird with ranges order being one way in the text and the other in the actual data. Really hard to keep track of what I was doing.
+
+### Day 6
+Easiest day so far. First solution is already clean. Second solution just does both parts at once and I tried to make it more compact.
