@@ -105,10 +105,8 @@ def solve(data):
                 i += 1
         if hand_val in joker_hand_values:
             sorted_hands = sorted(joker_hand_values[hand_val], key=lambda x: convert_hand(x, 2), reverse=True)
-            print(hand_val, sorted_hands)
             for hand in sorted_hands:
                 p2 += j * hands_bids[hand]
-                print(f"Adding {hands_bids[hand]}")
                 j += 1
     return p1, p2
 

@@ -20,6 +20,7 @@ I try to write the first solution as fast as I can, so whatever first comes to m
 | 5   | [Day 5 - Advent of Code 2023](https://adventofcode.com/2023/day/5)   | [Python](2023_problems/day5.py)  |                                  |
 | 6   | [Day 6 - Advent of Code 2023](https://adventofcode.com/2023/day/6)   | [Python](2023_problems/day6.py)  | [Python](2023_problems/day6b.py) |
 | 7   | [Day 7 - Advent of Code 2023](https://adventofcode.com/2023/day/7)   | [Python](2023_problems/day7.py)  |                                  |
+| 8   | [Day 8 - Advent of Code 2023](https://adventofcode.com/2023/day/8)   | [Python](2023_problems/day8.py)  |                                  |
 
 
 ## Logs
@@ -43,3 +44,6 @@ Easiest day so far. First solution is already clean. Second solution just does b
 
 ### Day 7
 Hard coded all the card values basically -.-.
+
+### Day 8
+Pretty straightforward. Should have done both parts at the same time. Small input so just store all ..A elements in a dict and output both parts at the end.
