@@ -49,5 +49,4 @@ def solve_p2(instructions,  node_dict):
             i += 1
     return substeps
 
-
 solve(data)
