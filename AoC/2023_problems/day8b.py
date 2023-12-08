@@ -29,5 +29,3 @@ def solve(text):
     return nodes_steps["AAA"], lcm(*nodes_steps.values())
 
 print(solve(data))
-
-
