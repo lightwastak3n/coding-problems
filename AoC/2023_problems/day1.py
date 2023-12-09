@@ -26,7 +26,8 @@ def solve(input, part):
             if c.isnumeric():
                 total += int(c)
                 break
-    print(total)
+    # print(total)
+    return total
 
 
 def fixline(line):

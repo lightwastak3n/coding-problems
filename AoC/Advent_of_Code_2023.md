@@ -1,27 +1,20 @@
 # Advent of Code 2023
 List of problems: https://adventofcode.com/2023/
 
-You can get the problem input data directly into your Python code with [get_data.py](2022_problems/get_data.py). Create a `config.json` file in problems folder and add cookie session to it or just configure it for yourself.
-```json
-{
-	"cookie": "92d5eea06bd8a2c14a......."
-}
-```
-This will also save the input data as a txt file for future reference. Python files are run from the problems folder.
-
-I try to write the first solution as fast as I can, so whatever first comes to mind. After I get the stars I might try to write shorter code for the second solution. 
+Python files are run from the problems folder or just change the input data path.
+First solution is the original so it might be messy. After I get the stars I might try to write cleaner/shorter code for the second solution. 
 
 | Day | Problem link                                                         | Solution                         | Cleaner                          |
 | --- | -------------------------------------------------------------------- | -------------------------------- | -------------------------------- |
 | 1   | [Day 1 - Advent of Code 2023](https://adventofcode.com/2023/day/1)   | [Python](2023_problems/day1.py)  |                                  |
 | 2   | [Day 2 - Advent of Code 2023](https://adventofcode.com/2023/day/2)   | [Python](2023_problems/day2.py)  | [Python](2023_problems/day2_b.py)|
-| 3   | [Day 3 - Advent of Code 2023](https://adventofcode.com/2023/day/3)   | [Python](2023_problems/day3.py)  |                                  |
+| 3   | [Day 3 - Advent of Code 2023](https://adventofcode.com/2023/day/3)   | [Python](2023_problems/day3.py)  | [Javascript](2023_problems/day3.js) |
 | 4   | [Day 4 - Advent of Code 2023](https://adventofcode.com/2023/day/4)   | [Python](2023_problems/day4.py)  | [Python](2023_problems/day4b.py) [Javascript](2023_problems/day4.js) |
 | 5   | [Day 5 - Advent of Code 2023](https://adventofcode.com/2023/day/5)   | [Python](2023_problems/day5.py)  |                                  |
 | 6   | [Day 6 - Advent of Code 2023](https://adventofcode.com/2023/day/6)   | [Python](2023_problems/day6.py)  | [Python](2023_problems/day6b.py) [Javascript](2023_problems/day6.js)|
 | 7   | [Day 7 - Advent of Code 2023](https://adventofcode.com/2023/day/7)   | [Python](2023_problems/day7.py)  |                                  |
 | 8   | [Day 8 - Advent of Code 2023](https://adventofcode.com/2023/day/8)   | [Python](2023_problems/day8.py)  | [Python](2023_problems/day8b.py) [Javascript](2023_problems/day8.js) |
-| 9   | [Day 9 - Advent of Code 2023](https://adventofcode.com/2023/day/9)   | [Python](2023_problems/day9.py)  |                                  |
+| 9   | [Day 9 - Advent of Code 2023](https://adventofcode.com/2023/day/9)   | [Python](2023_problems/day9.py)  | [Python](2023_problems/day9b.py) |
 
 
 ## Logs

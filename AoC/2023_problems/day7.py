@@ -111,3 +111,11 @@ def solve(data):
     return p1, p2
 
 print(solve(data))
+
+
+import time
+t1 = time.time()
+for _ in range(100):
+    solve(data)
+t2 = time.time()
+print(f"{(t2-t1)/100:.5f} seconds")
