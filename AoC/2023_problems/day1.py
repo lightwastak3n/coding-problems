@@ -67,5 +67,5 @@ def fixline(line):
 
 with open("AoC/2023_problems/day1.txt", "r") as f:
     inpt = f.read()
-    solve(inpt, 1)
-    solve(inpt, 2)
+    print(solve(inpt, 1))
+    print(solve(inpt, 2))

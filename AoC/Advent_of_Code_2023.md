@@ -6,7 +6,7 @@ First solution is the original so it might be messy. After I get the stars I mig
 
 | Day | Problem link                                                         | Solution                         | Cleaner                          |
 | --- | -------------------------------------------------------------------- | -------------------------------- | -------------------------------- |
-| 1   | [Day 1 - Advent of Code 2023](https://adventofcode.com/2023/day/1)   | [Python](2023_problems/day1.py)  |                                  |
+| 1   | [Day 1 - Advent of Code 2023](https://adventofcode.com/2023/day/1)   | [Python](2023_problems/day1.py)  |  [Javascript](2023_problems/day1.js) |
 | 2   | [Day 2 - Advent of Code 2023](https://adventofcode.com/2023/day/2)   | [Python](2023_problems/day2.py)  | [Python](2023_problems/day2_b.py)|
 | 3   | [Day 3 - Advent of Code 2023](https://adventofcode.com/2023/day/3)   | [Python](2023_problems/day3.py)  | [Javascript](2023_problems/day3.js) |
 | 4   | [Day 4 - Advent of Code 2023](https://adventofcode.com/2023/day/4)   | [Python](2023_problems/day4.py)  | [Python](2023_problems/day4b.py) [Javascript](2023_problems/day4.js) |
