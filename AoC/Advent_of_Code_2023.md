@@ -21,6 +21,7 @@ I try to write the first solution as fast as I can, so whatever first comes to m
 | 6   | [Day 6 - Advent of Code 2023](https://adventofcode.com/2023/day/6)   | [Python](2023_problems/day6.py)  | [Python](2023_problems/day6b.py) [Javascript](2023_problems/day6.js)|
 | 7   | [Day 7 - Advent of Code 2023](https://adventofcode.com/2023/day/7)   | [Python](2023_problems/day7.py)  |                                  |
 | 8   | [Day 8 - Advent of Code 2023](https://adventofcode.com/2023/day/8)   | [Python](2023_problems/day8.py)  | [Python](2023_problems/day8b.py) [Javascript](2023_problems/day8.js) |
+| 9   | [Day 9 - Advent of Code 2023](https://adventofcode.com/2023/day/9)   | [Python](2023_problems/day9.py)  |                                  |
 
 
 ## Logs
@@ -48,3 +49,7 @@ Hard coded all the card values basically -.-.
 ### Day 8
 Pretty straightforward. Should have done both parts at the same time. Small input so just store all ..A elements in a dict and output both parts at the end.
 `day8b.py` - both parts at the same time, math apparently has lcm method, ~30% faster than the first solution.
+
+### Day 9
+Mistakes: checked the input data but didn't saw negative numbers, that in turn caused a bug since I was checking the sum of the array to be 0 instead of all the numbers in it to be zero, 
+Easiest second part of the problem so far, basically the same as first part.
