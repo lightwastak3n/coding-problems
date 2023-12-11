@@ -16,7 +16,7 @@ First solution is the original so it might be messy. After I get the stars I mig
 | 8   | [Day 8 - Advent of Code 2023](https://adventofcode.com/2023/day/8)   | [Python](2023_problems/day8.py)  | [Python](2023_problems/day8b.py) [Javascript](2023_problems/day8.js) |
 | 9   | [Day 9 - Advent of Code 2023](https://adventofcode.com/2023/day/9)   | [Python](2023_problems/day9.py)  | [Python](2023_problems/day9b.py) |
 | 10  | [Day 10 - Advent of Code 2023](https://adventofcode.com/2023/day/10)   | [Python](2023_problems/day10.py)  |                                  |
-| 11  | [Day 11 - Advent of Code 2023](https://adventofcode.com/2023/day/11)   | [Python](2023_problems/day11.py)  |                                  |
+| 11  | [Day 11 - Advent of Code 2023](https://adventofcode.com/2023/day/11)   | [Python](2023_problems/day11.py)  | [Javascript](2023_problems/day11.js) |
 
 
 ## Logs
