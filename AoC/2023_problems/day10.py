@@ -79,7 +79,7 @@ def solve(data):
     p1 = len(pipe_loop) // 2
 
     p2 = 0
-    grid = ["".join(ch if (i, j) in pipe_loop else "." for j, ch in enumerate(row)) for i, row in enumerate(grid)]
+    grid = ["".join(c if (i, j) in pipe_loop else "." for j, c in enumerate(row)) for i, row in enumerate(grid)]
     inside = False
     for i in range(len(grid)):
         for j in range(len(grid[i])):
