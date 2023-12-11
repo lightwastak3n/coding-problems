@@ -6,7 +6,7 @@ First solution is the original so it might be messy. After I get the stars I mig
 
 | Day | Problem link                                                         | Solution                         | Cleaner                          |
 | --- | -------------------------------------------------------------------- | -------------------------------- | -------------------------------- |
-| 1   | [Day 1 - Advent of Code 2023](https://adventofcode.com/2023/day/1)   | [Python](2023_problems/day1.py)  |  [Javascript](2023_problems/day1.js) |
+| 1   | [Day 1 - Advent of Code 2023](https://adventofcode.com/2023/day/1)   | [Python](2023_problems/day1.py)  |  [Javascript](2023_problems/day1.js) git s|
 | 2   | [Day 2 - Advent of Code 2023](https://adventofcode.com/2023/day/2)   | [Python](2023_problems/day2.py)  | [Python](2023_problems/day2_b.py)|
 | 3   | [Day 3 - Advent of Code 2023](https://adventofcode.com/2023/day/3)   | [Python](2023_problems/day3.py)  | [Javascript](2023_problems/day3.js) |
 | 4   | [Day 4 - Advent of Code 2023](https://adventofcode.com/2023/day/4)   | [Python](2023_problems/day4.py)  | [Python](2023_problems/day4b.py) [Javascript](2023_problems/day4.js) |
@@ -15,6 +15,7 @@ First solution is the original so it might be messy. After I get the stars I mig
 | 7   | [Day 7 - Advent of Code 2023](https://adventofcode.com/2023/day/7)   | [Python](2023_problems/day7.py)  |                                  |
 | 8   | [Day 8 - Advent of Code 2023](https://adventofcode.com/2023/day/8)   | [Python](2023_problems/day8.py)  | [Python](2023_problems/day8b.py) [Javascript](2023_problems/day8.js) |
 | 9   | [Day 9 - Advent of Code 2023](https://adventofcode.com/2023/day/9)   | [Python](2023_problems/day9.py)  | [Python](2023_problems/day9b.py) |
+| 10  | [Day 10 - Advent of Code 2023](https://adventofcode.com/2023/day/10)   | [Python](2023_problems/day10.py)  |                                  |
 
 
 ## Logs
@@ -46,3 +47,6 @@ Pretty straightforward. Should have done both parts at the same time. Small inpu
 ### Day 9
 Mistakes: checked the input data but didn't saw negative numbers, that in turn caused a bug since I was checking the sum of the array to be 0 instead of all the numbers in it to be zero, 
 Easiest second part of the problem so far, basically the same as first part.
+
+### Day 10
+Took me hours. You need some theory for this. Looked at visualizations and read a bit about this. Tried the shoelace algorithm, didn't work. Tried to do the flood fill before realizing that "squeezing between pipes is also allowed". Blowing up the grid by x2 so x4 elements was just too complicated together with pipes duplication. In the end I did what most people did and used up/down parity to determine if it's in or out. What goes up must come down, if it hasn't it means we are inside. It's slow though (~2s).
