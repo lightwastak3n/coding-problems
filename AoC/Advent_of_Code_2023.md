@@ -15,7 +15,7 @@ First solution is the original so it might be messy. After I get the stars I mig
 | 7   | [Day 7 - Advent of Code 2023](https://adventofcode.com/2023/day/7)   | [Python](2023_problems/day7.py)  |                                  |
 | 8   | [Day 8 - Advent of Code 2023](https://adventofcode.com/2023/day/8)   | [Python](2023_problems/day8.py)  | [Python](2023_problems/day8b.py) [Javascript](2023_problems/day8.js) |
 | 9   | [Day 9 - Advent of Code 2023](https://adventofcode.com/2023/day/9)   | [Python](2023_problems/day9.py)  | [Python](2023_problems/day9b.py) |
-| 10  | [Day 10 - Advent of Code 2023](https://adventofcode.com/2023/day/10)   | [Python](2023_problems/day10.py)  |                                  |
+| 10  | [Day 10 - Advent of Code 2023](https://adventofcode.com/2023/day/10)   | [Python](2023_problems/day10.py)  | [Python](2023_problems/day10b.py) |
 | 11  | [Day 11 - Advent of Code 2023](https://adventofcode.com/2023/day/11)   | [Python](2023_problems/day11.py)  | [Javascript](2023_problems/day11.js) |
 
 
@@ -51,6 +51,7 @@ Easiest second part of the problem so far, basically the same as first part.
 
 ### Day 10
 Took me hours. You need some theory for this. Looked at visualizations and read a bit about this. Tried the shoelace algorithm, didn't work. Tried to do the flood fill before realizing that "squeezing between pipes is also allowed". Blowing up the grid by x2 so x4 elements was just too complicated together with pipes duplication. In the end I did what most people did and used up/down parity to determine if it's in or out. What goes up must come down, if it hasn't it means we are inside. It's slow though (~2s).
+Redid the solution in [Python](2023_problems/day10b.py) using Shoelace + Pick's. Runtime went from ~2s to 7 ms.
 
 ### Day 11
 Changed a multiplier for part 1 a few times and got the answer before realizing how it works. Increasing by n means adding n-1 colums/rows.
