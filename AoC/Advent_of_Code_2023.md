@@ -18,6 +18,7 @@ First solution is the original so it might be messy. After I get the stars I mig
 | 10  | [Day 10 - Advent of Code 2023](https://adventofcode.com/2023/day/10)   | [Python](2023_problems/day10.py)  | [Python](2023_problems/day10b.py) |
 | 11  | [Day 11 - Advent of Code 2023](https://adventofcode.com/2023/day/11)   | [Python](2023_problems/day11.py)  | [Javascript](2023_problems/day11.js) |
 | 12  | [Day 12 - Advent of Code 2023](https://adventofcode.com/2023/day/12)   | [Python](2023_problems/day12.py)  |  |
+| 13  | [Day 13 - Advent of Code 2023](https://adventofcode.com/2023/day/13)   | [Python](2023_problems/day13.py)  |  |
 
 
 ## Logs
@@ -56,3 +57,9 @@ Redid the solution in [Python](2023_problems/day10b.py) using Shoelace + Pick's.
 
 ### Day 11
 Changed a multiplier for part 1 a few times and got the answer before realizing how it works. Increasing by n means adding n-1 colums/rows.
+
+### Day 12
+Took a while. Done with brute force, not sure how to improve it.
+
+### Day 13
+Not a hard problem but the description was a bit confusing to me.
