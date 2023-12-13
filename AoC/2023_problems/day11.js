@@ -44,15 +44,16 @@ function solve(data) {
         for (let j = i; j < galaxies.length; j++) {
             const [x1, y1] = galaxies[i];
             const [x2, y2] = galaxies[j];
-            const firstGalaxyRowsOffset = [...emptyRows].filter(x => x < x1).length;
-            const firstGalaxyColumnsOffset = [...emptyCols].filter(x => x < y1).length;
-            const secondGalaxyRowsOffset = [...emptyRows].filter(x => x < x2).length;
-            const secondGalaxyColumnsOffset = [...emptyCols].filter(x => x < y2).length;
+            const g1RowsOffset = [...emptyRows].filter(x => x < x1).length;
+            const g1ColumnsOffset = [...emptyCols].filter(x => x < y1).length;
+            const g2RowsOffset = [...emptyRows].filter(x => x < x2).length;
+            const g2ColumnsOffset = [...emptyCols].filter(x => x < y2).length;
 
-            p1 += Math.abs(x1 + firstGalaxyRowsOffset - x2 - secondGalaxyRowsOffset) + Math
-            .abs(y1 + firstGalaxyColumnsOffset - y2 - secondGalaxyColumnsOffset);
-            p2 += Math.abs(x1 + 999999*firstGalaxyRowsOffset - x2 - 999999*secondGalaxyRowsOffset) + Math
-            .abs(y1 + 999999*firstGalaxyColumnsOffset - y2 - 999999*secondGalaxyColumnsOffset);
+            // Manhattan distance = |x1 - x2| + |y1 - y2|
+            p1 += Math.abs(x1 + g1RowsOffset - x2 - g2RowsOffset) + Math
+            .abs(y1 + g1ColumnsOffset - y2 - g2ColumnsOffset);
+            p2 += Math.abs(x1 - x2 + 999999* (g1RowsOffset - g2RowsOffset)) + Math
+            .abs(y1 - y2 + 999999 * (g1ColumnsOffset - g2ColumnsOffset));
         }
     }
     return [p1, p2];
