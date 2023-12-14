@@ -19,7 +19,7 @@ First solution is the original so it might be messy. After I get the stars I mig
 | 11  | [Day 11 - Advent of Code 2023](https://adventofcode.com/2023/day/11)   | [Python](2023_problems/day11.py)  | [Javascript](2023_problems/day11.js) |
 | 12  | [Day 12 - Advent of Code 2023](https://adventofcode.com/2023/day/12)   | [Python](2023_problems/day12.py)  |  |
 | 13  | [Day 13 - Advent of Code 2023](https://adventofcode.com/2023/day/13)   | [Python](2023_problems/day13.py)  | [Javascript](2023_problems/day13.js) |
-
+| 14  | [Day 14 - Advent of Code 2023](https://adventofcode.com/2023/day/14)   | [Python](2023_problems/day14.py)  | [Python](2023_problems/day14b.py) |
 
 ## Logs
 ### Day 2
@@ -63,3 +63,22 @@ Took a while. Done with brute force, not sure how to improve it.
 
 ### Day 13
 Not a hard problem but the description was a bit confusing to me.
+
+### Day 14
+No idea how to do the part 2 in code. I did a couple of hundred of cycles and looked at the total load at the end of each and saw that first 125 cycles gave basically random numbers and then it started repeating in a cycle of length 21. Had to mod the total load since the numbers were 100k+ and hard to see. So the answer was (1b - 125) % 21 and then just find the correct load in that cycle.
+Did it in a cleaner way. HyperNeutrino explained how to find the cycles for the part 2 here https://youtu.be/WCVOBKUNc38?t=544
+Clean version is still really slow ~ 0.8 s.
+Used cProfile for timing and it says:
+```bash
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+   361905    0.020    0.000    0.020    0.000 {built-in method builtins.len}
+    57300    0.005    0.000    0.005    0.000 {method 'reverse' of 'list' objects}
+    14645    0.006    0.000    0.006    0.000 day14b.py:50(<genexpr>)
+      572    2.000    0.003    2.003    0.004 day14b.py:17(move_rocks_left)
+      572    0.072    0.000    0.077    0.000 day14b.py:35(rotate_right)
+      286    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+      145    0.002    0.000    0.008    0.000 day14b.py:49(grid_hash)
+      144    0.132    0.001    0.149    0.001 day14b.py:26(get_load)
+      142    0.004    0.000    0.004    0.000 {method 'add' of 'set' objects}
+```
+so I guess `move_rocks` and `get_load` are major slowdowns.
