@@ -4,23 +4,23 @@ List of problems: https://adventofcode.com/2023/
 Python files are run from the problems folder or just change the input data path.
 First solution is the original so it might be messy. After I get the stars I might try to write cleaner/shorter code for the second solution. 
 
-| Day | Problem link                                                         | Solution                         | Cleaner                          |
-| --- | -------------------------------------------------------------------- | -------------------------------- | -------------------------------- |
-| 1   | [Day 1 - Advent of Code 2023](https://adventofcode.com/2023/day/1)   | [Python](2023_problems/day1.py)  |  [Javascript](2023_problems/day1.js)      |
-| 2   | [Day 2 - Advent of Code 2023](https://adventofcode.com/2023/day/2)   | [Python](2023_problems/day2.py)  | [Python](2023_problems/day2_b.py)|
-| 3   | [Day 3 - Advent of Code 2023](https://adventofcode.com/2023/day/3)   | [Python](2023_problems/day3.py)  | [Javascript](2023_problems/day3.js) |
+| Day | Problem link                                                         | Solution                         | Cleaner                                 |
+| --- | -------------------------------------------------------------------- | -------------------------------- | --------------------------------------- |
+| 1   | [Day 1 - Advent of Code 2023](https://adventofcode.com/2023/day/1)   | [Python](2023_problems/day1.py)  |  [Javascript](2023_problems/day1.js)    |
+| 2   | [Day 2 - Advent of Code 2023](https://adventofcode.com/2023/day/2)   | [Python](2023_problems/day2.py)  | [Python](2023_problems/day2_b.py)       |
+| 3   | [Day 3 - Advent of Code 2023](https://adventofcode.com/2023/day/3)   | [Python](2023_problems/day3.py)  | [Javascript](2023_problems/day3.js)     |
 | 4   | [Day 4 - Advent of Code 2023](https://adventofcode.com/2023/day/4)   | [Python](2023_problems/day4.py)  | [Python](2023_problems/day4b.py) [Javascript](2023_problems/day4.js) |
-| 5   | [Day 5 - Advent of Code 2023](https://adventofcode.com/2023/day/5)   | [Python](2023_problems/day5.py)  |                                  |
+| 5   | [Day 5 - Advent of Code 2023](https://adventofcode.com/2023/day/5)   | [Python](2023_problems/day5.py)  |                                         |
 | 6   | [Day 6 - Advent of Code 2023](https://adventofcode.com/2023/day/6)   | [Python](2023_problems/day6.py)  | [Python](2023_problems/day6b.py) [Javascript](2023_problems/day6.js)|
-| 7   | [Day 7 - Advent of Code 2023](https://adventofcode.com/2023/day/7)   | [Python](2023_problems/day7.py)  |                                  |
+| 7   | [Day 7 - Advent of Code 2023](https://adventofcode.com/2023/day/7)   | [Python](2023_problems/day7.py)  |                                         |
 | 8   | [Day 8 - Advent of Code 2023](https://adventofcode.com/2023/day/8)   | [Python](2023_problems/day8.py)  | [Python](2023_problems/day8b.py) [Javascript](2023_problems/day8.js) |
-| 9   | [Day 9 - Advent of Code 2023](https://adventofcode.com/2023/day/9)   | [Python](2023_problems/day9.py)  | [Python](2023_problems/day9b.py) |
-| 10  | [Day 10 - Advent of Code 2023](https://adventofcode.com/2023/day/10)   | [Python](2023_problems/day10.py)  | [Python](2023_problems/day10b.py) |
+| 9   | [Day 9 - Advent of Code 2023](https://adventofcode.com/2023/day/9)   | [Python](2023_problems/day9.py)  | [Python](2023_problems/day9b.py)        |
+| 10  | [Day 10 - Advent of Code 2023](https://adventofcode.com/2023/day/10)   | [Python](2023_problems/day10.py)  | [Python](2023_problems/day10b.py)    |
 | 11  | [Day 11 - Advent of Code 2023](https://adventofcode.com/2023/day/11)   | [Python](2023_problems/day11.py)  | [Javascript](2023_problems/day11.js) |
-| 12  | [Day 12 - Advent of Code 2023](https://adventofcode.com/2023/day/12)   | [Python](2023_problems/day12.py)  |  |
+| 12  | [Day 12 - Advent of Code 2023](https://adventofcode.com/2023/day/12)   | [Python](2023_problems/day12.py)  |                                      |
 | 13  | [Day 13 - Advent of Code 2023](https://adventofcode.com/2023/day/13)   | [Python](2023_problems/day13.py)  | [Javascript](2023_problems/day13.js) |
-| 14  | [Day 14 - Advent of Code 2023](https://adventofcode.com/2023/day/14)   | [Python](2023_problems/day14.py)  | [Python](2023_problems/day14b.py) |
-| 15  | [Day 15 - Advent of Code 2023](https://adventofcode.com/2023/day/15)   | [Python](2023_problems/day15.py)  |  |
+| 14  | [Day 14 - Advent of Code 2023](https://adventofcode.com/2023/day/14)   | [Python](2023_problems/day14.py)  | [Python](2023_problems/day14b.py)    |
+| 15  | [Day 15 - Advent of Code 2023](https://adventofcode.com/2023/day/15)   | [Python](2023_problems/day15.py)  | [Javascript](2023_problems/day13.js) |
 
 
 ## Logs
@@ -87,3 +87,4 @@ so I guess `move_rocks` and `get_load` are major slowdowns.
 
 ### Day 15
 One of the easiest days so far. Took way longer to read part 2 and understand it than to actually code it.
+Tried to write a short solution in JS.
