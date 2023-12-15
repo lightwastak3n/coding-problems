@@ -20,6 +20,8 @@ First solution is the original so it might be messy. After I get the stars I mig
 | 12  | [Day 12 - Advent of Code 2023](https://adventofcode.com/2023/day/12)   | [Python](2023_problems/day12.py)  |  |
 | 13  | [Day 13 - Advent of Code 2023](https://adventofcode.com/2023/day/13)   | [Python](2023_problems/day13.py)  | [Javascript](2023_problems/day13.js) |
 | 14  | [Day 14 - Advent of Code 2023](https://adventofcode.com/2023/day/14)   | [Python](2023_problems/day14.py)  | [Python](2023_problems/day14b.py) |
+| 15  | [Day 15 - Advent of Code 2023](https://adventofcode.com/2023/day/15)   | [Python](2023_problems/day15.py)  |  |
+
 
 ## Logs
 ### Day 2
@@ -69,7 +71,7 @@ No idea how to do the part 2 in code. I did a couple of hundred of cycles and lo
 Did it in a cleaner way. HyperNeutrino explained how to find the cycles for the part 2 here https://youtu.be/WCVOBKUNc38?t=544
 Clean version is still really slow ~ 0.8 s.
 Used cProfile for timing and it says:
-```bash
+```python
    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
    361905    0.020    0.000    0.020    0.000 {built-in method builtins.len}
     57300    0.005    0.000    0.005    0.000 {method 'reverse' of 'list' objects}
@@ -82,3 +84,6 @@ Used cProfile for timing and it says:
       142    0.004    0.000    0.004    0.000 {method 'add' of 'set' objects}
 ```
 so I guess `move_rocks` and `get_load` are major slowdowns.
+
+### Day 15
+One of the easiest days so far. Took way longer to read part 2 and understand it than to actually code it.
