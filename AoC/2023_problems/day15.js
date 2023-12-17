@@ -24,4 +24,4 @@ function part2(data) {
 }
 
 console.log(part1(data));
-console.log(part2(data))
+console.log(part2(data));

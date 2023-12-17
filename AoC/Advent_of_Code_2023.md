@@ -21,7 +21,7 @@ First solution is the original so it might be messy. After I get the stars I mig
 | 13  | [Day 13 - Advent of Code 2023](https://adventofcode.com/2023/day/13)   | [Python](2023_problems/day13.py)  | [Javascript](2023_problems/day13.js) |
 | 14  | [Day 14 - Advent of Code 2023](https://adventofcode.com/2023/day/14)   | [Python](2023_problems/day14.py)  | [Python](2023_problems/day14b.py)    |
 | 15  | [Day 15 - Advent of Code 2023](https://adventofcode.com/2023/day/15)   | [Python](2023_problems/day15.py)  | [Javascript](2023_problems/day13.js) |
-
+| 16  | [Day 16 - Advent of Code 2023](https://adventofcode.com/2023/day/16)   | [Python](2023_problems/day16.py)  |                                      |
 
 ## Logs
 ### Day 2
@@ -88,3 +88,8 @@ so I guess `move_rocks` and `get_load` are major slowdowns.
 ### Day 15
 One of the easiest days so far. Took way longer to read part 2 and understand it than to actually code it.
 Tried to write a short solution in JS.
+
+### Day 16
+I found this very difficult to keep track of.
+Lesson: When traversing something like this pay attention what happens when you hit a mirror and turn. Do you want to store the direction you came from or the new direction?
+Are you storing both for some reason? What happens if beam splits? Try to generate a few simple layouts with infinite loops or something and see what
