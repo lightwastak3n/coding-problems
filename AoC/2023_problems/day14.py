@@ -19,7 +19,7 @@ def display_grid(grid):
         print("|".join(row))
 
 
-def tranpose_reverse(grid, reverse=False):
+def transpose_reverse(grid, reverse=False):
     transposed = list(map(list, zip(*grid)))
     if reverse:
         for row in transposed:
@@ -53,31 +53,31 @@ def calculate_load(grid):
 
 def part1(data):
     grid = [list(x) for x in data.split("\n")]
-    grid = tranpose_reverse(grid)
+    grid = transpose_reverse(grid)
     return tilt(grid)
 
 
 def part2(data):
     grid = [list(x) for x in data.split("\n")]
     cycle_end = []
-    grid = tranpose_reverse(grid)
+    grid = transpose_reverse(grid)
     for _ in range(200):
         # North
         tilt(grid)
         # West
-        grid = tranpose_reverse(grid)
+        grid = transpose_reverse(grid)
         tilt(grid)
         # South
-        grid = tranpose_reverse(grid, True)
+        grid = transpose_reverse(grid, True)
         tilt(grid)
         # East
-        grid = tranpose_reverse(grid, True)
+        grid = transpose_reverse(grid, True)
         tilt(grid)
 
         # Return back to facing north
-        grid = tranpose_reverse(grid, reverse=True)
-        grid = tranpose_reverse(grid, reverse=True)
-        grid = tranpose_reverse(grid)
+        grid = transpose_reverse(grid, reverse=True)
+        grid = transpose_reverse(grid, reverse=True)
+        grid = transpose_reverse(grid)
         # doing % 102600 since numbers are large and hard to see the pattern
         cycle_end.append(calculate_load(grid) % 102600)
 
