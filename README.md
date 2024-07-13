@@ -1,5 +1,5 @@
-# Coding problems
-I like doing coding problems and the best way to learn is to teach so here are some solutions. I hope someone finds it useful.
+# Coding problems solutions
+Click on a link to see the table. Solutions mostly in Python and Javascript.
 
 
 ## <img height=30 src="media/HackerRank_logo.png"> HackerRank
