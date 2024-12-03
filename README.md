@@ -22,3 +22,4 @@ https://adventofcode.com/
 
 1. [Advent of Code 2022](AoC/Advent_of_Code_2022.md)
 2. [Advent of Code 2023](AoC/Advent_of_Code_2023.md)
+3. [Advent of Code 2024](AoC/Advent_of_Code_2024.md)
