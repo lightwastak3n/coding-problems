@@ -7,3 +7,4 @@ List of problems: https://adventofcode.com/2024/
 | 2   | [Day 2 - Advent of Code 2024](https://adventofcode.com/2024/day/2)   | [Python](2024_problems/day2.py)  |     |
 | 3   | [Day 3 - Advent of Code 2024](https://adventofcode.com/2024/day/3)   | [JS](2024_problems/day3.js)  |     |
 | 4   | [Day 4 - Advent of Code 2024](https://adventofcode.com/2024/day/4)   | [JS](2024_problems/day4.js)  |     |
+| 5   | [Day 5 - Advent of Code 2024](https://adventofcode.com/2024/day/5)   | [JS](2024_problems/day5.js)  |     |
